@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "pdf-lib": "^1.17.1"
+    "pdf-lib": "^1.17.1",
+    "serve": "^14.0.1"
   },
   "scripts": {
     "start": "serve -s dist",
-    "build": "mkdir dist && cp index.html dist/index.html && cp -R src dist/src"
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp -R src dist/src"
   }
 }
