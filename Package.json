@@ -7,7 +7,7 @@
     "serve": "^14.0.1"
   },
   "scripts": {
-    "start": "serve -s dist",
+    "start": "serve dist",
     "build": "mkdir -p dist && cp index.html dist/index.html && cp -R src dist/src"
   }
 }
